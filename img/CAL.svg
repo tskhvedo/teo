@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63">
+  <g id="Group_1928" data-name="Group 1928" transform="translate(-282 -422)">
+    <rect id="Rectangle_2456" data-name="Rectangle 2456" width="63" height="63" rx="12" transform="translate(282 422)" fill="#5276b2" opacity="0.1"/>
+    <path id="Calendar" d="M54.675,12.043H52.82V8.333H49.111v3.709H34.273V8.333H30.564v3.709H28.709a3.693,3.693,0,0,0-3.691,3.709L25,41.718a3.708,3.708,0,0,0,3.709,3.709H54.675a3.72,3.72,0,0,0,3.709-3.709V15.752A3.72,3.72,0,0,0,54.675,12.043Zm0,29.675H28.709V23.171H54.675Zm0-22.256H28.709V15.752H54.675Zm-3.709,9.273H41.692v9.274h9.274Z" transform="translate(271.808 426.619)" fill="#5276b2"/>
+  </g>
+</svg>

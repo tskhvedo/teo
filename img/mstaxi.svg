@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63">
+  <g id="Group_1938" data-name="Group 1938" transform="translate(-638 -892)">
+    <rect id="Rectangle_2461" data-name="Rectangle 2461" width="63" height="63" rx="12" transform="translate(638 892)" fill="#1eb484" opacity="0.1"/>
+    <g id="Taxi" transform="translate(652.814 906.814)">
+      <path id="Path_5323" data-name="Path 5323" d="M29.516,5.581a2.77,2.77,0,0,0-2.633-1.873H22.248V0H11.124V3.708H6.489A2.788,2.788,0,0,0,3.856,5.581L0,16.686V31.518a1.859,1.859,0,0,0,1.854,1.854H3.708a1.859,1.859,0,0,0,1.854-1.854V29.664H27.81v1.854a1.859,1.859,0,0,0,1.854,1.854h1.854a1.859,1.859,0,0,0,1.854-1.854V16.686ZM7.138,7.416H26.215l1.928,5.562H5.21Zm22.526,18.54H3.708v-8.64l.222-.63H29.46l.2.63Z" fill="#1eb484"/>
+      <path id="Path_5324" data-name="Path 5324" d="M27.781,88.9A2.781,2.781,0,1,0,25,86.114,2.781,2.781,0,0,0,27.781,88.9Z" transform="translate(-19.438 -64.794)" fill="#1eb484"/>
+      <path id="Path_5325" data-name="Path 5325" d="M102.781,88.9A2.781,2.781,0,1,0,100,86.114,2.781,2.781,0,0,0,102.781,88.9Z" transform="translate(-77.752 -64.794)" fill="#1eb484"/>
+    </g>
+  </g>
+</svg>

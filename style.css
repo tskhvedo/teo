@@ -1,0 +1,1397 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.umtavresi {
+  background-color: #2392ca;
+  background-size: cover;
+  margin: 0 auto;
+}
+.header {
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #2392ca;
+  width: 1402px;
+  height: 69px;
+  position: relative;
+}
+.bar {
+  transform: translate(71px, 2px);
+}
+
+.menu {
+  transform: translate(0px, 0px);
+}
+.menu .material-symbols-sharp {
+  font-size: 26px;
+}
+
+.material-symbols-sharp {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+  font-size: 26px;
+}
+
+.munici {
+  transform: translate(12px, -2px);
+}
+
+.munici img {
+  width: 255px;
+  color: green;
+  transform: translate(7px, 4px);
+}
+.munici p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: white;
+}
+.saxeli1 {
+  display: flex;
+  transform: translate(0px, 0px);
+  gap: 11.28px;
+  position: absolute;
+  right: 0px;
+}
+
+.saxeli p {
+  text-align: left;
+  font: normal normal 300 14px/19px Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 18px;
+}
+
+.material-symbols-sharp {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: #ece5e5;
+}
+
+.material-symbols-sharp {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: #ffffff;
+}
+
+.umtavresi2 {
+  margin: 0 auto;
+  background-color: #ffffff;
+  background-size: cover;
+}
+.main {
+  width: 1402px;
+  height: 67px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  position: relative;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  gap: 30.9px;
+}
+.search img {
+  width: 40px;
+
+  color: gray;
+  justify-content: center;
+  align-items: center;
+}
+.chawera {
+  width: 256px;
+  height: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #393c4a74;
+  text-transform: uppercase;
+  border: none;
+  font-size: 20px;
+  text-align: left;
+  font: normal normal 300 17px/19px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #393c4a74;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.machvene {
+  color: #262d3b;
+  letter-spacing: 0.55px;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 41px;
+  height: 33px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 34px;
+  height: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #2196f3;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #638bb94a;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translate(20px, 1.5px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  transform: translate(-2px, 2px);
+}
+
+.mtavari {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding-bottom: 69px;
+}
+.main2 {
+  background-color: #f4f4f4;
+  width: 1402px;
+  height: 1715px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 29px;
+  column-gap: 30px;
+  padding-top: 42px;
+  transform: translate(0px, 0px);
+}
+.erti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon1 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon1 img {
+  width: 63px;
+  height: 63px;
+}
+.name1 {
+  background-color: white;
+  height: 18px;
+  width: 86px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri1 {
+  background-color: #00375a;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/30px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri1 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+
+.ori {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon2 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon2img {
+  width: 63px;
+  height: 63px;
+}
+.name2 {
+  background-color: white;
+  height: 18px;
+  width: 186px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri2 {
+  background-color: #89a8cd;
+  height: 82px;
+  letter-spacing: 0px;
+  text-align: left;
+  font: normal normal normal 15px/30px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri2 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.sami {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon3 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon3 img {
+  width: 63px;
+  height: 63px;
+}
+.name3 {
+  background-color: white;
+  height: 18px;
+  width: 86px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri3 {
+  background-color: #2392ca;
+  height: 82px;
+
+  text-align: left;
+  font: normal normal normal 17px/22px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri3 p {
+  margin-top: 13x;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.otxi {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon4 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon4 img {
+  width: 63px;
+  height: 63px;
+}
+.name4 {
+  background-color: white;
+  height: 18px;
+  width: 217px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri4 {
+  background-color: #466648;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/30px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri4 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.xuti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon5 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon5 img {
+  width: 63px;
+  height: 63px;
+}
+.name5 {
+  background-color: white;
+  height: 18px;
+  width: 148px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri5 {
+  background-color: #5276b2;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/22px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri5 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 269px;
+  display: inline-block;
+}
+.eqvsi {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon6 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon6 img {
+  width: 63px;
+  height: 63px;
+}
+.name6 {
+  background-color: white;
+  height: 18px;
+  width: 127px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri6 {
+  background-color: #245777;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/30px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri6 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.shvidi {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon7 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon7 img {
+  width: 63px;
+  height: 63px;
+}
+.name7 {
+  background-color: white;
+  height: 18px;
+  width: 89px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri7 {
+  background-color: #95434b;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/22px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri7 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 238px;
+  display: inline-block;
+}
+.rva {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon8 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon8 img {
+  width: 63px;
+  height: 63px;
+}
+.name8 {
+  background-color: white;
+  height: 18px;
+  width: 90px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri8 {
+  background-color: #91acd9;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/30px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri8 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.cxra {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon9 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon9 img {
+  width: 63px;
+  height: 63px;
+}
+.name9 {
+  background-color: white;
+  height: 18px;
+  width: 87px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri9 {
+  background-color: #ddab55;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/30px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri9 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.ati {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon10 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon10 img {
+  width: 63px;
+  height: 63px;
+}
+.name10 {
+  background-color: white;
+  height: 18px;
+  width: 152px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri10 {
+  background-color: #6a8680;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/22px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri10 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.tertmeti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon11 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon11 img {
+  width: 63px;
+  height: 63px;
+}
+.name11 {
+  background-color: white;
+  height: 18px;
+  width: 86px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri11 {
+  background-color: #50473e;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/22px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri11 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.tormeti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon12 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon12 img {
+  width: 63px;
+  height: 63px;
+}
+.name12 {
+  background-color: white;
+  height: 18px;
+  width: 252px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri12 {
+  background-color: #455a64;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/30px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri12 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.cameti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon13 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon13 img {
+  width: 63px;
+  height: 63px;
+}
+.name13 {
+  background-color: white;
+  height: 18px;
+  width: 210px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri13 {
+  background-color: #be3f3f;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/22px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri13 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.totxmeti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon14 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon14 img {
+  width: 63px;
+  height: 63px;
+}
+.name14 {
+  background-color: white;
+  height: 18px;
+  width: 220px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri14 {
+  background-color: #ada37f;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/22px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri14 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.txutmeti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon15 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon15 img {
+  width: 63px;
+  height: 63px;
+}
+.name15 {
+  background-color: white;
+  height: 18px;
+  width: 86px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri15 {
+  background-color: #1eb484;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/22px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri15 p {
+  margin-top: 13x;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.teqvsmeti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon16 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon16 img {
+  width: 63px;
+  height: 63px;
+}
+.name16 {
+  background-color: white;
+  height: 18px;
+  width: 262px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri16 {
+  background-color: #068484;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/22px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri16 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.chvidmeti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon17 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon17 img {
+  width: 63px;
+  height: 63px;
+}
+.name17 {
+  background-color: white;
+  height: 18px;
+  width: 263px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri17 {
+  background-color: #57aa8a;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/20px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri17 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 267px;
+  display: inline-block;
+}
+
+.tvrameti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon18 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon18 img {
+  width: 63px;
+  height: 63px;
+}
+.name18 {
+  background-color: white;
+  height: 18px;
+  width: 116px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri18 {
+  background-color: #7d9ea5;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/20px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri18 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.cxrameti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon19 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon19 img {
+  width: 63px;
+  height: 63px;
+}
+.name19 {
+  background-color: white;
+  height: 18px;
+  width: 95px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri19 {
+  background-color: #76719f;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/20px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri19 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.oci {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon20 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon20img {
+  width: 63px;
+  height: 63px;
+}
+.name20 {
+  background-color: white;
+  height: 18px;
+  width: 188px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri20 {
+  background-color: #638bb9;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/18px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri20 p {
+  margin-top: 13x;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.ocdaerti {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon21 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon21 img {
+  width: 63px;
+  height: 63px;
+}
+.name21 {
+  background-color: white;
+  height: 18px;
+  width: 113px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri21 {
+  background-color: #b9c9af;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/20px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri21 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 258px;
+  display: inline-block;
+}
+.ocdaori {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon22 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon22 img {
+  width: 63px;
+  height: 63px;
+}
+.name22 {
+  background-color: white;
+  height: 18px;
+  width: 140px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri22 {
+  background-color: #1e3239;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/20px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri22 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.ocdasami {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon23 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon23 img {
+  width: 63px;
+  height: 63px;
+}
+.name23 {
+  background-color: white;
+  height: 18px;
+  width: 197px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri23 {
+  background-color: #c6c6c6;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/22px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri23 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+.ocdaotxi {
+  width: 328px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.icon24 {
+  background-color: white;
+  height: 63px;
+  width: 66px;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.icon24 img {
+  width: 63px;
+  height: 63px;
+}
+.name24 {
+  background-color: white;
+  height: 18px;
+  width: 190px;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
+.satauri24 {
+  background-color: #dfdfdf;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 15px/20px Noto Sans Georgian;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.satauri24 p {
+  margin-top: 13px;
+  margin-left: 21px;
+  width: 280px;
+  display: inline-block;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.foot {
+  background-color: #2392ca;
+  background-size: cover;
+  margin: 0 auto;
+}
+.footer {
+  margin: 0 auto;
+  background-color: #2392ca;
+  width: 1402px;
+  height: 34px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.teknikuri {
+  text-align: left;
+  font: normal normal normal 10px/24px Noto Sans Georgian;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+  opacity: 1;
+}
+.phone {
+  color: #ffffff;
+  opacity: 1;
+  width: 18px;
+  height: 18px;
+  margin-left: 21px;
+  margin-right: 9px;
+}
+.nomeri {
+  text-align: left;
+  font: normal normal normal 10px/24px Noto Sans Georgian;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+  opacity: 1;
+}
+.samushao {
+  text-align: left;
+  font: normal normal normal 10px/24px Noto Sans Georgian;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+  opacity: 1;
+  margin-left: 15px;
+  margin-right: 37px;
+}
+.posta {
+  color: #ffffff;
+  opacity: 1;
+  width: 20px;
+  height: 16px;
+}
+.mail {
+  text-align: left;
+  font: normal normal normal 10px/24px Noto Sans Georgian;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+  opacity: 1;
+  margin-left: 13px;
+}
+.www {
+  position: absolute;
+  right: 0px;
+  text-align: left;
+  font: normal normal normal 10px/24px Noto Sans Georgian;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+  opacity: 1;
+  width: 66px;
+  height: 10px;
+}
+
+.foot2 {
+  margin: 0 auto;
+  background-size: cover;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 11px;
+  padding-bottom: 9px;
+}
+
+.footer2 {
+  letter-spacing: 0.35px;
+  color: #777777;
+  text-transform: uppercase;
+  opacity: 0.58;
+  width: 332px;
+  height: 14px;
+  font-size: 10px;
+}
