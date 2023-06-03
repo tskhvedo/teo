@@ -202,6 +202,8 @@ input:checked + .slider:before {
   align-items: center;
   background-color: #f4f4f4;
   padding-bottom: 69px;
+  background-size: cover;
+  margin: 0 auto;
 }
 .main2 {
   background-color: #f4f4f4;
@@ -215,6 +217,8 @@ input:checked + .slider:before {
   column-gap: 30px;
   padding-top: 42px;
   transform: translate(0px, 0px);
+  background-size: cover;
+  margin: 0 auto;
 }
 .erti {
   width: 328px;
@@ -1317,6 +1321,7 @@ input:checked + .slider:before {
   display: flex;
   position: relative;
   align-items: center;
+  margin: 0 auto;
 }
 .teknikuri {
   text-align: left;
@@ -1394,4 +1399,257 @@ input:checked + .slider:before {
   width: 332px;
   height: 14px;
   font-size: 10px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1418px) {
+  * {
+  }
+  body {
+    overflow-x: hidden;
+    margin: 0px 0px 0px 0px;
+    height: 1800px;
+  }
+
+  .header {
+    width: 1143px;
+  }
+  .main {
+    width: 1143px;
+  }
+
+  .mtavari {
+    width: 1404px;
+
+    padding-top: 0px;
+  }
+  .main2 {
+    width: 1143px;
+    height: 1989px;
+  }
+  .foot {
+    width: 1418px;
+    background-color: 2392ca;
+  }
+  .footer {
+    width: 1143px;
+  }
+  .foot2 {
+    width: 1418px;
+    display: flex;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    margin: 0px 0px 0px 0px;
+    height: 1800px;
+  }
+  .umtavresi {
+    width: 375px;
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 375px;
+  }
+  .saxeli1 {
+    display: none;
+  }
+  .umtavresi2 {
+    width: 375px;
+  }
+  .main {
+    width: 375px;
+  }
+  .chawera {
+    width: 223px;
+  }
+
+  .mtavari {
+    width: 375px;
+    height: 6720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main2 {
+    width: 375px;
+    height: 6650px;
+  }
+
+  .satauri3 p {
+    width: 197px;
+  }
+  .machvene {
+    display: none;
+  }
+  .erti {
+    width: 270px;
+  }
+  .satauri1 p {
+    width: 200px;
+  }
+  .ori {
+    width: 270px;
+  }
+  .satauri2 p {
+    width: 200px;
+  }
+  .sami {
+    width: 270px;
+  }
+  .otxi {
+    width: 270px;
+  }
+  .satauri4 p {
+    width: 240px;
+  }
+  .xuti {
+    width: 270px;
+  }
+  .satauri5 p {
+    width: 200px;
+  }
+  .eqvsi {
+    width: 270px;
+  }
+  .satauri6 p {
+    width: 200px;
+  }
+  .shvidi {
+    width: 270px;
+  }
+  .rva {
+    width: 270px;
+  }
+  .satauri8 p {
+    width: 200px;
+  }
+  .cxra {
+    width: 270px;
+  }
+  .satauri9 p {
+    width: 200px;
+  }
+  .ati {
+    width: 270px;
+  }
+  .satauri10 p {
+    width: 200px;
+  }
+  .tertmeti {
+    width: 270px;
+  }
+  .satauri11 p {
+    width: 206px;
+  }
+  .tormeti {
+    width: 270px;
+  }
+  .satauri12 p {
+    width: 206px;
+  }
+  .cameti {
+    width: 270px;
+  }
+  .satauri13 p {
+    width: 200px;
+  }
+  .totxmeti {
+    width: 270px;
+  }
+  .satauri14 p {
+    width: 248px;
+  }
+  .txutmeti {
+    width: 270px;
+  }
+  .satauri15 p {
+    width: 213px;
+  }
+  .teqvsmeti {
+    width: 270px;
+  }
+  .name16 {
+    width: 200px;
+  }
+  .satauri16 p {
+    width: 200px;
+  }
+  .chvidmeti {
+    width: 270px;
+  }
+  .name17 {
+    width: 200px;
+
+    transform: translateY(-9px);
+  }
+  .satauri17 p {
+    width: 222px;
+  }
+  .tvrameti {
+    width: 270px;
+  }
+  .satauri18 p {
+    width: 200px;
+  }
+  .cxrameti {
+    width: 270px;
+  }
+  .satauri19 p {
+    width: 200px;
+  }
+  .oci {
+    width: 270px;
+  }
+  .satauri20 p {
+    width: 216px;
+  }
+  .ocdaerti {
+    width: 270px;
+  }
+  .satauri21 p {
+    width: 216px;
+  }
+  .ocdaori {
+    width: 270px;
+  }
+  .satauri22 p {
+    width: 200px;
+  }
+  .ocdasami {
+    width: 270px;
+  }
+  .satauri23 p {
+    width: 213px;
+  }
+  .ocdaotxi {
+    width: 270px;
+  }
+  .satauri24 p {
+    width: 196px;
+  }
+  .foot {
+    width: 375px;
+    height: 165px;
+  }
+  .footer {
+    width: 375px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .www {
+    transform: translate(-107px, 138px);
+  }
+
+  .foot2 {
+    width: 375px;
+  }
+  .footer2 {
+    width: 375px;
+  }
 }
