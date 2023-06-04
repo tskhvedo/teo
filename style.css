@@ -1637,8 +1637,28 @@ input:checked + .slider:before {
     align-items: center;
     justify-content: center;
   }
+
+  .teknikuri {
+    transform: translate(-1px, 0px);
+  }
+  .phone {
+    transform: translate(-27px, 4px);
+  }
+  .nomeri {
+    transform: translate(6px, -9px);
+  }
+  .samushao {
+    transform: translate(10px, -10px);
+  }
+  .posta {
+    transform: translate(-1px, -8px);
+  }
+  .mail {
+    transform: translate(-6px, 0px);
+  }
   .www {
     position: relative;
+    transform: translate(5px, 0px);
   }
   .foot2 {
     margin: 0 auto;
